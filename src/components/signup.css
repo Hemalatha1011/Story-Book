@@ -1,0 +1,28 @@
+.cointainer {
+  width: 300px;
+  /* text-align: center; */
+  margin: auto !important;
+  background-color: #ededeb;
+  padding-top: 2%;
+}
+.signup {
+  padding: 1.5%;
+}
+
+.register {
+  display: flex;
+  height: 100vh;
+}
+.sign-here {
+  text-align: center;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.account {
+  justify-content: center !important;
+  align-items: center !important;
+  background-color: rgb(248, 244, 244);
+  height: 10vh;
+  display: flex;
+}

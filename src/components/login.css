@@ -1,0 +1,24 @@
+.login-form {
+  width: 300px;
+  /* height: 50vh; */
+  padding: 1% !important;
+  text-align: center;
+  margin: auto !important;
+  /* margin-top: 10% !important; */
+  background-color: rgb(237, 237, 235);
+}
+.login-button {
+  width: 100%;
+}
+
+.login {
+  display: flex;
+  height: 100vh;
+}
+.login-here {
+  font-family: cursive;
+  font-weight: bold;
+}
+.login-register {
+  padding-top: 10% !important;
+}

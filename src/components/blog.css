@@ -1,0 +1,43 @@
+.form {
+  width: 300px;
+
+  margin: auto !important;
+
+  padding: 2%;
+  background: transparent;
+}
+
+.button {
+  padding-top: 4%;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 2%;
+}
+h2 {
+  font-weight: bold;
+  font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: blue;
+  padding-top: 2%;
+}
+h3 {
+  font-style: oblique;
+  margin: 40px 40px 0px;
+  justify-content: center;
+  text-align: center !important;
+  align-items: center !important;
+}
+
+.logo {
+  position: absolute;
+  margin-left: -2%;
+}
+.menu {
+  padding-right: 5% !important;
+  float: right;
+}
