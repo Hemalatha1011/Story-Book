@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 
 const { Header, Footer } = Layout;
 
-function View() {
+function View(props) {
   let name = JSON.parse(localStorage.getItem("name"));
 
-  const Finish = (props) => {
+  const Finish = () => {
     // console.log("aaaa", props.history);
     props.history.push("/");
   };

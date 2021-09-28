@@ -11,7 +11,6 @@ const Blog = (props) => {
   const onFinish = () => {
     // console.log("aaaa", props.history);
     props.history.push("/");
-    alert("Successfully logout");
   };
 
   return (

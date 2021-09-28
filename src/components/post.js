@@ -21,13 +21,13 @@ const Post = (props) => {
     if (name.title && name.description) {
       props.history.push("/view");
     } else {
-      message.error("Post is not found");
+      message.error("Story is not found");
     }
   };
   const handleFinish = (values) => {
     setsaveLoading(true);
     localStorage.setItem("name", JSON.stringify(values));
-    message.success("post create successfully");
+    message.success("Story Create Successfully");
     props.history.push("/view");
   };
 
